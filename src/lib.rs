@@ -3,7 +3,7 @@ pub fn add(left: usize, right: usize) -> usize {
 }
 
 pub fn subtract(a: i32, b: i32) -> i32 {
-  a - b 
+    a - b
 }
 
 #[cfg(test)]
@@ -18,7 +18,7 @@ mod tests {
 
     #[test]
     fn subtract_works() {
-        let result = subtract(3, 2);
+        let result = subtract(3, 3);
         assert_eq!(result, 1)
     }
 }
