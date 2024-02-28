@@ -23,6 +23,8 @@ mod tests {
     #[test]
     fn subtract_works() {
         let result = subtract(3, 1);
-        assert_eq!(result, 2)
+        assert_eq!(result, 2);
+        println!("1");
+        
     }
 }
