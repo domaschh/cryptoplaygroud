@@ -3,7 +3,7 @@ pub fn add(left: usize, right: usize) -> usize {
 }
 
 pub fn subtract(a: i32, b: i32) -> i32 {
-    a - b - 1
+    a - b 
 }
 
 pub fn multiply(a: i32, b: i32) -> i32 {
@@ -17,12 +17,12 @@ mod tests {
     #[test]
     fn it_works() {
         let result = add(2, 2);
-        assert_eq!(result, 5);
+        assert_eq!(result, 4);
     }
 
     #[test]
     fn subtract_works() {
-        let result = subtract(3, 2);
-        assert_eq!(result, 1)
+        let result = subtract(3, 1);
+        assert_eq!(result, 2)
     }
 }
