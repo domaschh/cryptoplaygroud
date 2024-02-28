@@ -3,7 +3,11 @@ pub fn add(left: usize, right: usize) -> usize {
 }
 
 pub fn subtract(a: i32, b: i32) -> i32 {
-    a - b
+    a - b - 1
+}
+
+pub fn multiply(a: i32, b: i32) -> i32 {
+    a * b
 }
 
 #[cfg(test)]
